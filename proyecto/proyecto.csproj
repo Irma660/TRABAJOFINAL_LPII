@@ -77,10 +77,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\entidades\entidades.csproj">
-      <Project>{9f195697-603d-4518-a506-dde408fee000}</Project>
-      <Name>entidades</Name>
-    </ProjectReference>
     <ProjectReference Include="..\logicaNegocio\logicaNegocio.csproj">
       <Project>{8445b4ad-64e0-4412-8bb4-47475b01701a}</Project>
       <Name>logicaNegocio</Name>
