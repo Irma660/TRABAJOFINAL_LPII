@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8445B4AD-64E0-4412-8BB4-47475B01701A}</ProjectGuid>
+    <ProjectGuid>{9F195697-603D-4518-A506-DDE408FEE000}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>logicaNegocio</RootNamespace>
-    <AssemblyName>logicaNegocio</AssemblyName>
+    <RootNamespace>entidades</RootNamespace>
+    <AssemblyName>entidades</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -42,16 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\accesoDatos\accesoDatos.csproj">
-      <Project>{8ff1fdf9-479a-45b4-8454-e6ddf3e77e99}</Project>
-      <Name>accesoDatos</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\entidades\entidades.csproj">
-      <Project>{9f195697-603d-4518-a506-dde408fee000}</Project>
-      <Name>entidades</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
