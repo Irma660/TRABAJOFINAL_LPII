@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.CapaAccesoDatos", "1.CapaAccesoDatos", "{EEF4EE90-0EBD-4DE8-9DC0-F5F0B2E68E6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.CapaLogicaNegocio", "2.CapaLogicaNegocio", "{56409019-7C11-4BAC-81D3-DD6D892A4CA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.CapaPresentacion", "3.CapaPresentacion", "{1D2F14B3-01DD-4FB8-B48A-AA93E62CC0DB}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAC5BB61-70C5-4B50-B2A0-105B72507533}
+	EndGlobalSection
+EndGlobal
