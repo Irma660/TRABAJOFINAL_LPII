@@ -16,5 +16,24 @@ namespace accesoDatos.entidades
         SqlCommand cmd = new SqlCommand();
         SqlDataReader dr;
         DataTable td = new DataTable();
+
+        public DataTable Mostrar()
+        {
+            try {
+                cmd.Connection = c.OpenConnection();
+                cmd.CommandText = "SP_Mostrar";
+                cmd.CommandType = CommandType.StoredProcedure;
+                dr = cmd.ExecuteReader();
+                td.Load(dr);
+            }
+           catch(Exception ex){
+                String msj = ex.ToString();
+            }
+            finally
+            {
+                cmd.Connection = c.CloseConnection();
+            }
+            return td;
+        }
     }
 }
