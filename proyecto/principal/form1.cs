@@ -33,5 +33,7 @@ namespace proyecto.principal
         {
             this.WindowState = FormWindowState.Minimized;
         }
+
+        
     }
 }
