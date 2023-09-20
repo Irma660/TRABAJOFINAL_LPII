@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\bin\Debug\accesoDatos.dll
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\bin\Debug\accesoDatos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.dll
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.pdb

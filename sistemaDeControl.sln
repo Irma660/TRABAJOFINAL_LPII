@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "logicaNegocio", "logicaNego
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto", "proyecto\proyecto.csproj", "{2BDAF50F-849B-428C-A6EB-BF1EF7C0F82F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{5D9AF613-6B47-4CD7-90D2-EC9CF36871EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "atributos\common.csproj", "{E3DF7B06-D27B-421C-9481-6B0C6750BD47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,10 @@ Global
 		{2BDAF50F-849B-428C-A6EB-BF1EF7C0F82F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BDAF50F-849B-428C-A6EB-BF1EF7C0F82F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BDAF50F-849B-428C-A6EB-BF1EF7C0F82F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3DF7B06-D27B-421C-9481-6B0C6750BD47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3DF7B06-D27B-421C-9481-6B0C6750BD47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3DF7B06-D27B-421C-9481-6B0C6750BD47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3DF7B06-D27B-421C-9481-6B0C6750BD47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +49,7 @@ Global
 		{8FF1FDF9-479A-45B4-8454-E6DDF3E77E99} = {EEF4EE90-0EBD-4DE8-9DC0-F5F0B2E68E6E}
 		{8445B4AD-64E0-4412-8BB4-47475B01701A} = {56409019-7C11-4BAC-81D3-DD6D892A4CA4}
 		{2BDAF50F-849B-428C-A6EB-BF1EF7C0F82F} = {1D2F14B3-01DD-4FB8-B48A-AA93E62CC0DB}
+		{E3DF7B06-D27B-421C-9481-6B0C6750BD47} = {5D9AF613-6B47-4CD7-90D2-EC9CF36871EB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {BAC5BB61-70C5-4B50-B2A0-105B72507533}

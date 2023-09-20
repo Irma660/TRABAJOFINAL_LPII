@@ -1,0 +1,9 @@
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\logicaNegocio.dll
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\logicaNegocio.pdb
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\accesoDatos.dll
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\accesoDatos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.csproj.CopyComplete
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.dll
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.pdb

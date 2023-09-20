@@ -1,0 +1,14 @@
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\proyecto.exe.config
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\proyecto.exe
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\proyecto.pdb
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\logicaNegocio.dll
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\logicaNegocio.pdb
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.Properties.Resources.resources
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.csproj.CopyComplete
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.exe
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.pdb
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\Guna.UI2.dll
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.principal.form1.resources
