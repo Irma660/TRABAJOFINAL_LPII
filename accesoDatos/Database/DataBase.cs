@@ -10,5 +10,17 @@ namespace accesoDatos.Database
 {
     public class DataBase
     {
-        private SqlConnection c = new SqlConnection("");    }
+        private SqlConnection c = new SqlConnection("Data Source=DESKTOP-4Q0A0TB\\SQLEXPRESS;Initial Catalog=BDSISTR;Integrated Security=True");  
+        //abriendo conexión
+        public SqlConnection OpenConnection()
+        {
+            if (c.State == ConnectionState.Closed) c.Open();
+            return c; 
+        }
+        public SqlConnection CloseConnection()
+        {
+            if (c.State == ConnectionState.Open) c.Close();
+            return c;
+        }
+    }
 }
