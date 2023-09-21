@@ -1,0 +1,6 @@
+C:\Users\USER\source\repos\sistemaDeControl\atributos\bin\Debug\atributos.dll
+C:\Users\USER\source\repos\sistemaDeControl\atributos\bin\Debug\atributos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\common.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\common.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\atributos.dll
+C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\atributos.pdb

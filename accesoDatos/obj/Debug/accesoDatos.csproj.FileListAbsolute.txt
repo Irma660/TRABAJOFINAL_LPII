@@ -4,3 +4,7 @@ C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.cs
 C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.dll
 C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\bin\Debug\accesoDatos.dll.config
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\bin\Debug\atributos.dll
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\bin\Debug\atributos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\accesoDatos\obj\Debug\accesoDatos.csproj.CopyComplete

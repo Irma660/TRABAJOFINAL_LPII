@@ -12,3 +12,8 @@ C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.exe
 C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.pdb
 C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\Guna.UI2.dll
 C:\Users\USER\source\repos\sistemaDeControl\proyecto\obj\Debug\proyecto.principal.form1.resources
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\atributos.dll
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\accesoDatos.dll
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\atributos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\accesoDatos.pdb
+C:\Users\USER\source\repos\sistemaDeControl\proyecto\bin\Debug\accesoDatos.dll.config

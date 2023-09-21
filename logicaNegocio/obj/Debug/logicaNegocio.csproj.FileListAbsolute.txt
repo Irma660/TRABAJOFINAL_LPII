@@ -7,3 +7,6 @@ C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegoci
 C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.csproj.CopyComplete
 C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.dll
 C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\obj\Debug\logicaNegocio.pdb
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\atributos.dll
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\accesoDatos.dll.config
+C:\Users\USER\source\repos\sistemaDeControl\logicaNegocio\bin\Debug\atributos.pdb
