@@ -41,11 +41,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Database\ClsDataBase.cs" />
+    <Compile Include="BDSISTRDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BDSISTRDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Database\DataBase.cs" />
+    <Compile Include="entidades\estudiante.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\atributos\common.csproj">
+      <Project>{e3df7b06-d27b-421c-9481-6b0c6750bd47}</Project>
+      <Name>common</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="entidades\" />
+    <None Include="app.config" />
+    <None Include="BDSISTRDataSet.xsc">
+      <DependentUpon>BDSISTRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BDSISTRDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BDSISTRDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BDSISTRDataSet.xss">
+      <DependentUpon>BDSISTRDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

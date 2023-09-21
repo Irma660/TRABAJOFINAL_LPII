@@ -48,6 +48,7 @@ namespace proyecto.principal
         {
             txtSexo.SelectedIndex = 0;
             btnGuardar.Enabled = false;
+            getData();
         }
 
         private void txtPrimerNombre_Enter(object sender, EventArgs e)

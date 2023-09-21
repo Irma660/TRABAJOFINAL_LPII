@@ -17,7 +17,6 @@ namespace logicaNegocio.CRUD
             DataTable td = new DataTable();
             td = persona.Mostrar();
             return td;
-
         }
     }
 }

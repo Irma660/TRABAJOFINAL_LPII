@@ -21,7 +21,7 @@ namespace accesoDatos.entidades
         {
             try {
                 cmd.Connection = c.OpenConnection();
-                cmd.CommandText = "SP_Mostrar";
+                cmd.CommandText = "Mostrar";
                 cmd.CommandType = CommandType.StoredProcedure;
                 dr = cmd.ExecuteReader();
                 td.Load(dr);

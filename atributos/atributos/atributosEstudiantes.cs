@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace atributos.atributos
 {
-    internal class atributosEstudiantes
+    public class atributosEstudiantes
     {
     }
 }
