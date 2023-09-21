@@ -22,7 +22,7 @@ CREATE TABLE Estudiante (
 	SEXO VARCHAR (15) NOT NULL,
 	dni VARCHAR(8) NOT NULL,
     telefono varchar(9) NOT NULL,
-	dirección varchar(60) NOT NULL,
+	direcciÃ³n varchar(60) NOT NULL,
 	fechaDnac date NOT NULL,
 	observaciones varchar(100) NOT NULL,
 );

@@ -4,3 +4,9 @@ C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\common.csproj.As
 C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\common.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\atributos.dll
 C:\Users\USER\source\repos\sistemaDeControl\atributos\obj\Debug\atributos.pdb
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\bin\Debug\atributos.dll
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\bin\Debug\atributos.pdb
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\obj\Debug\common.csproj.AssemblyReference.cache
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\obj\Debug\common.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\obj\Debug\atributos.dll
+C:\Users\Alumno\Desktop\PROYECTO_FINALLP\TRABAJOFINAL_LPII\atributos\obj\Debug\atributos.pdb
