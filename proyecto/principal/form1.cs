@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using atributos.atributos;
+using logicaNegocio.CRUD;
 
 namespace proyecto.principal
 {
@@ -17,6 +19,10 @@ namespace proyecto.principal
             InitializeComponent();
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
+        //variables
+        Cestudiante personas = new Cestudiante();
+        atributosEstudiantes atributos = new atributosEstudiantes();
+        bool edit = false;
 
         private void btnClose_Click(object sender, EventArgs e)
         {
@@ -33,7 +39,11 @@ namespace proyecto.principal
         {
             this.WindowState = FormWindowState.Minimized;
         }
-
+        private void getData()
+        {
+            Cestudiante cestudiante = new Cestudiante();
+            dvgDatos.DataSource = cestudiante.Mostrar();
+        }
         private void form1_Load(object sender, EventArgs e)
         {
             txtSexo.SelectedIndex = 0;
