@@ -13,6 +13,7 @@ using logicaNegocio.CRUD;
 namespace proyecto.principal
 {
     public partial class form1 : Form
+        
     {
         public form1()
         {
