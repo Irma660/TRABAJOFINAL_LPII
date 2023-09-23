@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panelTop = new System.Windows.Forms.Panel();
             this.btnMin = new System.Windows.Forms.PictureBox();
             this.btnMax = new System.Windows.Forms.PictureBox();
@@ -57,11 +57,9 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txtObservaciones = new Guna.UI2.WinForms.Guna2TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.txtGrado = new Guna.UI2.WinForms.Guna2TextBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtSeccion = new Guna.UI2.WinForms.Guna2TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.txtNivel = new Guna.UI2.WinForms.Guna2TextBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.txtSexo = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -72,6 +70,8 @@
             this.btnGuardar = new Guna.UI2.WinForms.Guna2Button();
             this.label7 = new System.Windows.Forms.Label();
             this.txtID = new Guna.UI2.WinForms.Guna2TextBox();
+            this.txtNivel = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.txtGrado = new Guna.UI2.WinForms.Guna2ComboBox();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnMin)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMax)).BeginInit();
@@ -139,28 +139,28 @@
             // 
             // dvgDatos
             // 
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.White;
-            this.dvgDatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle10;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            this.dvgDatos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dvgDatos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.CadetBlue;
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dvgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.CadetBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dvgDatos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dvgDatos.ColumnHeadersHeight = 15;
             this.dvgDatos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dvgDatos.DefaultCellStyle = dataGridViewCellStyle12;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dvgDatos.DefaultCellStyle = dataGridViewCellStyle3;
             this.dvgDatos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dvgDatos.Location = new System.Drawing.Point(11, 219);
             this.dvgDatos.Name = "dvgDatos";
@@ -495,28 +495,6 @@
             this.label10.TabIndex = 11;
             this.label10.Text = "OBSERVACIONES";
             // 
-            // txtGrado
-            // 
-            this.txtGrado.BorderRadius = 13;
-            this.txtGrado.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtGrado.DefaultText = "grado";
-            this.txtGrado.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtGrado.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtGrado.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGrado.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtGrado.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGrado.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtGrado.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtGrado.Location = new System.Drawing.Point(437, 121);
-            this.txtGrado.Name = "txtGrado";
-            this.txtGrado.PasswordChar = '\0';
-            this.txtGrado.PlaceholderText = "grado";
-            this.txtGrado.SelectedText = "";
-            this.txtGrado.Size = new System.Drawing.Size(136, 36);
-            this.txtGrado.TabIndex = 10;
-            this.txtGrado.Enter += new System.EventHandler(this.txtGrado_Enter);
-            this.txtGrado.Leave += new System.EventHandler(this.txtGrado_Leave);
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -558,28 +536,6 @@
             this.label13.Size = new System.Drawing.Size(54, 13);
             this.label13.TabIndex = 11;
             this.label13.Text = "SECCIÓN";
-            // 
-            // txtNivel
-            // 
-            this.txtNivel.BorderRadius = 13;
-            this.txtNivel.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNivel.DefaultText = "nivel";
-            this.txtNivel.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtNivel.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtNivel.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNivel.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNivel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNivel.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtNivel.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNivel.Location = new System.Drawing.Point(579, 62);
-            this.txtNivel.Name = "txtNivel";
-            this.txtNivel.PasswordChar = '\0';
-            this.txtNivel.PlaceholderText = "NIVEL";
-            this.txtNivel.SelectedText = "";
-            this.txtNivel.Size = new System.Drawing.Size(136, 36);
-            this.txtNivel.TabIndex = 10;
-            this.txtNivel.Enter += new System.EventHandler(this.txtNivel_Enter);
-            this.txtNivel.Leave += new System.EventHandler(this.txtNivel_Leave);
             // 
             // label14
             // 
@@ -733,8 +689,54 @@
             this.txtID.SelectedText = "";
             this.txtID.Size = new System.Drawing.Size(135, 36);
             this.txtID.TabIndex = 4;
+            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
             this.txtID.Enter += new System.EventHandler(this.txtID_Enter);
             this.txtID.Leave += new System.EventHandler(this.txtID_Leave);
+            // 
+            // txtNivel
+            // 
+            this.txtNivel.BackColor = System.Drawing.Color.Transparent;
+            this.txtNivel.BorderRadius = 13;
+            this.txtNivel.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtNivel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtNivel.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNivel.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtNivel.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtNivel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtNivel.ItemHeight = 30;
+            this.txtNivel.Items.AddRange(new object[] {
+            "INICIAL",
+            "PRIMARIA",
+            "SECUNDARIA"});
+            this.txtNivel.Location = new System.Drawing.Point(581, 62);
+            this.txtNivel.Name = "txtNivel";
+            this.txtNivel.Size = new System.Drawing.Size(136, 36);
+            this.txtNivel.TabIndex = 16;
+            // 
+            // txtGrado
+            // 
+            this.txtGrado.BackColor = System.Drawing.Color.Transparent;
+            this.txtGrado.BorderRadius = 13;
+            this.txtGrado.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.txtGrado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.txtGrado.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtGrado.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtGrado.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.txtGrado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.txtGrado.ItemHeight = 30;
+            this.txtGrado.Items.AddRange(new object[] {
+            "1°",
+            "2°",
+            "3°",
+            "4°",
+            "5°",
+            "6°",
+            "4 años",
+            "5 años"});
+            this.txtGrado.Location = new System.Drawing.Point(437, 119);
+            this.txtGrado.Name = "txtGrado";
+            this.txtGrado.Size = new System.Drawing.Size(136, 36);
+            this.txtGrado.TabIndex = 17;
             // 
             // form1
             // 
@@ -742,6 +744,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1031, 503);
+            this.Controls.Add(this.txtGrado);
+            this.Controls.Add(this.txtNivel);
             this.Controls.Add(this.control);
             this.Controls.Add(this.txtSexo);
             this.Controls.Add(this.txtFechNac);
@@ -755,9 +759,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtTelefono);
-            this.Controls.Add(this.txtNivel);
             this.Controls.Add(this.txtSeccion);
-            this.Controls.Add(this.txtGrado);
             this.Controls.Add(this.txtObservaciones);
             this.Controls.Add(this.txtDireccion);
             this.Controls.Add(this.txtSegundoApellido);
@@ -817,11 +819,9 @@
         private System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2TextBox txtObservaciones;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2TextBox txtGrado;
         private System.Windows.Forms.Label label12;
         private Guna.UI2.WinForms.Guna2TextBox txtSeccion;
         private System.Windows.Forms.Label label13;
-        private Guna.UI2.WinForms.Guna2TextBox txtNivel;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
         private Guna.UI2.WinForms.Guna2ComboBox txtSexo;
@@ -832,5 +832,7 @@
         private Guna.UI2.WinForms.Guna2Button btnGuardar;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2TextBox txtID;
+        private Guna.UI2.WinForms.Guna2ComboBox txtNivel;
+        private Guna.UI2.WinForms.Guna2ComboBox txtGrado;
     }
 }

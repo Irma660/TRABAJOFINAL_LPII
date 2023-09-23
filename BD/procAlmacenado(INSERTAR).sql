@@ -30,7 +30,7 @@ WHERE
     t.name = 'Estudiante' AND -- Reemplaza 'mi_tabla' con el nombre de tu tabla
     c.name = 'ID';
 INSERT 
-drop table Estudiante
+drop table usuarios
 CREATE TABLE Estudiante (
     ID INT PRIMARY KEY,
     PRIMER_NOMBRE VARCHAR(50),

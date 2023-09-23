@@ -8,6 +8,7 @@ namespace atributos.atributos
 {
     public class atributosEstudiantes
     {
+        private string id;
         private string primer_nombre;
         private string segundo_nombre;
         private string primer_apellido;
@@ -22,6 +23,7 @@ namespace atributos.atributos
         private string observaciones;
         private string dni;
 
+        public string Id { get => id; set => id = value; }
         public string Primer_nombre { get => primer_nombre; set => primer_nombre = value; }
         public string Segundo_nombre { get => segundo_nombre; set => segundo_nombre = value; }
         public string Primer_apellido { get => primer_apellido; set => primer_apellido = value; }

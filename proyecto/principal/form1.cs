@@ -43,7 +43,7 @@ namespace proyecto.principal
         private void getData()
         {
             Cestudiante cestudiante = new Cestudiante();
-            dvgDatos.DataSource = Cestudiante.Mostrar();
+            dvgDatos.DataSource = cestudiante.Mostrar();
         }
         private void form1_Load(object sender, EventArgs e)
         {
@@ -58,7 +58,7 @@ namespace proyecto.principal
 
         private void txtID_Leave(object sender, EventArgs e)
         {
-            if (txtID.Text == "") txtPrimerNombre.Text = "ID";
+            if(txtID.Text == "") txtPrimerNombre.Text = "ID";
         }
 
         private void txtPrimerNombre_Enter(object sender, EventArgs e)
@@ -196,6 +196,7 @@ namespace proyecto.principal
             {
                 try
                 {
+                    atributos.Id = int.Parse(txtID.Text).ToString();
                     atributos.Primer_nombre = txtPrimerNombre.Text;
                     atributos.Segundo_nombre = txtSegundoNombre.Text;
                     atributos.Primer_apellido = txtPrimerApellido.Text;
@@ -214,6 +215,8 @@ namespace proyecto.principal
                     getData();
                     btnGuardar.Enabled = false;
                     btnNuevo.Enabled = true;
+                    txtID.Enabled = true;
+                    edit = false;
                     MessageBox.Show("SE GUARDARON LOS DATOS CORRECTAMENTE", "INGRESADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 catch(Exception ex)
@@ -243,8 +246,9 @@ namespace proyecto.principal
             txtDni.Text = string.Empty;
         }
 
-        
+        private void txtID_TextChanged(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

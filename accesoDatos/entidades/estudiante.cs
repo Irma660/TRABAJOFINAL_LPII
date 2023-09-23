@@ -24,7 +24,7 @@ namespace accesoDatos.entidades
         {
             try {
                 cmd.Connection = c.OpenConnection();
-                cmd.CommandText = "Mostrar";
+                cmd.CommandText = "MOSTRAR";
                 cmd.CommandType = CommandType.StoredProcedure;
                 dr = cmd.ExecuteReader();
                 td.Load(dr);
@@ -47,9 +47,12 @@ namespace accesoDatos.entidades
                 cmd.Connection = c.OpenConnection();
                 cmd.CommandText = "INSERTAR";
                 cmd.CommandType = CommandType.StoredProcedure;
+
+                cmd.Parameters.AddWithValue("@ID", obj.Id);
                 cmd.Parameters.AddWithValue("@PRIMER_NOMBRE", obj.Primer_nombre);
                 cmd.Parameters.AddWithValue("@SEGUNDO_NOMBRE", obj.Segundo_nombre);
                 cmd.Parameters.AddWithValue("@PRIMER_APELLIDO", obj.Primer_apellido);
+                cmd.Parameters.AddWithValue("@SEGUNDO_APELLIDO", obj.Segundo_apellido);
                 cmd.Parameters.AddWithValue("@NIVEL", obj.Nivel);
                 cmd.Parameters.AddWithValue("@GRADO", obj.Grado);
                 cmd.Parameters.AddWithValue("@SECCIÓN", obj.Seccion);
