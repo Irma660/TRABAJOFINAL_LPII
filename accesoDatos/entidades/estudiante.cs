@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
+using atributos.atributos;
 using accesoDatos.Database;
 
 namespace accesoDatos.entidades
@@ -34,6 +35,10 @@ namespace accesoDatos.entidades
                 cmd.Connection = c.CloseConnection();
             }
             return td;
+        }
+        public void INSERTAR(atributosEstudiantes obj)
+        {
+
         }
     }
 }
