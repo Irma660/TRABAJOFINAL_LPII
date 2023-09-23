@@ -40,7 +40,9 @@ namespace accesoDatos.entidades
         }
         public void INSERTAR(atributosEstudiantes obj)
         {
-             try
+           
+
+            try
             {
                 cmd.Connection = c.OpenConnection();
                 cmd.CommandText = "INSERTAR";

@@ -10,7 +10,7 @@ namespace accesoDatos.Database
 {
     public class DataBase
     {
-        private SqlConnection c = new SqlConnection("Data Source=DESKTOP-7LDGQBD;Initial Catalog=BDSISTR;Integrated Security=True");  
+        private SqlConnection c = new SqlConnection("Data Source=DESKTOP-4Q0A0TB\\SQLEXPRESS;Initial Catalog=BDSISTR;Integrated Security=True");  
         //abriendo conexión
         public SqlConnection OpenConnection()
         {
