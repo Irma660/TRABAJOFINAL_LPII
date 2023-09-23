@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-using atributos.atributos;
+using common.Atributtes;
 using accesoDatos.Database;
 using static System.Collections.Specialized.BitVector32;
 using System.Net;
@@ -38,7 +38,7 @@ namespace accesoDatos.entidades
             }
             return td;
         }
-        public void INSERTAR(atributosEstudiantes obj)
+        public void INSERTAR(atributtesEstudiantes obj)
         {
            
 
