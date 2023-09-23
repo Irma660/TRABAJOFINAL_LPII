@@ -711,6 +711,7 @@
             this.btnGuardar.Size = new System.Drawing.Size(87, 26);
             this.btnGuardar.TabIndex = 0;
             this.btnGuardar.Text = "GUARDAR";
+            this.btnGuardar.Click += new System.EventHandler(this.btnGuardar_Click);
             // 
             // form1
             // 

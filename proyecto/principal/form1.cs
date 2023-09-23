@@ -180,5 +180,30 @@ namespace proyecto.principal
             btnGuardar.Enabled = true;
             btnNuevo.Enabled = false;
         }
+
+        private void btnGuardar_Click(object sender, EventArgs e)
+        {
+            if (edit == false)
+            {
+                atributos.Primer_nombre = txtPrimerNombre.Text;
+                atributos.Segundo_nombre = txtSegundoNombre.Text;
+                atributos.Primer_apellido = txtPrimerApellido.Text;
+                atributos.Segundo_apellido = txtSegundoApellido.Text;
+                atributos.Telefono = txtTelefono.Text;
+                atributos.Nivel = txtNivel.Text;
+                atributos.Grado = txtGrado.Text;
+                atributos.Seccion = txtSeccion.Text;
+                atributos.Direccion = txtDireccion.Text;
+                atributos.Sexo = txtSexo.Text;
+                atributos.Fecha_nac = txtFechNac.Text;
+                atributos.Observaciones = txtObservaciones.Text;
+                atributos.Dni = txtDni.Text;
+                personas.INSERTAR(atributos);
+             
+    }else if (edit == true)
+            {
+
+            }
+        }
     }
 }
