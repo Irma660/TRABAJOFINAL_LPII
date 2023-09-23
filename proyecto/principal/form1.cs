@@ -43,13 +43,22 @@ namespace proyecto.principal
         private void getData()
         {
             Cestudiante cestudiante = new Cestudiante();
-            dvgDatos.DataSource = cestudiante.Mostrar();
+            dvgDatos.DataSource = Cestudiante.Mostrar();
         }
         private void form1_Load(object sender, EventArgs e)
         {
             txtSexo.SelectedIndex = 0;
             btnGuardar.Enabled = false;
             getData();
+        }
+        private void txtID_Enter(object sender, EventArgs e)
+        {
+            if (txtID.Text == "ID") txtPrimerNombre.Text = "";
+        }
+
+        private void txtID_Leave(object sender, EventArgs e)
+        {
+            if (txtID.Text == "") txtPrimerNombre.Text = "ID";
         }
 
         private void txtPrimerNombre_Enter(object sender, EventArgs e)
@@ -233,5 +242,9 @@ namespace proyecto.principal
             txtObservaciones.Text = string.Empty;
             txtDni.Text = string.Empty;
         }
+
+        
+
+        
     }
 }
