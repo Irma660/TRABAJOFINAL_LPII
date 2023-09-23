@@ -199,11 +199,29 @@ namespace proyecto.principal
                 atributos.Observaciones = txtObservaciones.Text;
                 atributos.Dni = txtDni.Text;
                 personas.INSERTAR(atributos);
+                LimpiarCajasDeTexto();
+                getData();
              
     }else if (edit == true)
             {
 
             }
+        }
+        private void LimpiarCajasDeTexto()
+        {
+            txtPrimerNombre.Text = string.Empty;
+            txtSegundoNombre.Text = string.Empty;
+            txtPrimerApellido.Text = string.Empty;
+            txtSegundoApellido.Text = string.Empty;
+            txtTelefono.Text = string.Empty;
+            txtNivel.Text = string.Empty;
+            txtGrado.Text = string.Empty;
+            txtSeccion.Text = string.Empty;
+            txtDireccion.Text = string.Empty;
+            txtSexo.Text = string.Empty;
+            txtFechNac.Text = string.Empty;
+            txtObservaciones.Text = string.Empty;
+            txtDni.Text = string.Empty;
         }
     }
 }
