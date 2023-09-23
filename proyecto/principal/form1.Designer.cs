@@ -88,7 +88,7 @@
             this.panelTop.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelTop.Location = new System.Drawing.Point(0, 0);
             this.panelTop.Name = "panelTop";
-            this.panelTop.Size = new System.Drawing.Size(786, 32);
+            this.panelTop.Size = new System.Drawing.Size(1031, 32);
             this.panelTop.TabIndex = 0;
             // 
             // btnMin
@@ -96,7 +96,7 @@
             this.btnMin.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMin.Image = global::proyecto.Properties.Resources.window_minimize_icon_194428;
-            this.btnMin.Location = new System.Drawing.Point(681, -4);
+            this.btnMin.Location = new System.Drawing.Point(926, -4);
             this.btnMin.Name = "btnMin";
             this.btnMin.Size = new System.Drawing.Size(30, 33);
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -109,7 +109,7 @@
             this.btnMax.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnMax.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMax.Image = global::proyecto.Properties.Resources.window_maximize_icon_194441;
-            this.btnMax.Location = new System.Drawing.Point(717, 3);
+            this.btnMax.Location = new System.Drawing.Point(962, 3);
             this.btnMax.Name = "btnMax";
             this.btnMax.Size = new System.Drawing.Size(31, 26);
             this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -122,7 +122,7 @@
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnClose.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnClose.Image = global::proyecto.Properties.Resources.times_circle_icon_194499;
-            this.btnClose.Location = new System.Drawing.Point(754, -1);
+            this.btnClose.Location = new System.Drawing.Point(999, -1);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(30, 35);
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -164,7 +164,7 @@
             this.dvgDatos.Location = new System.Drawing.Point(11, 219);
             this.dvgDatos.Name = "dvgDatos";
             this.dvgDatos.RowHeadersVisible = false;
-            this.dvgDatos.Size = new System.Drawing.Size(763, 124);
+            this.dvgDatos.Size = new System.Drawing.Size(1008, 124);
             this.dvgDatos.TabIndex = 1;
             this.dvgDatos.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.dvgDatos.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -639,7 +639,7 @@
             this.control.Controls.Add(this.btnGuardar);
             this.control.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.control.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.control.Location = new System.Drawing.Point(580, 105);
+            this.control.Location = new System.Drawing.Point(825, 105);
             this.control.Name = "control";
             this.control.Size = new System.Drawing.Size(195, 110);
             this.control.TabIndex = 15;
@@ -717,7 +717,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(786, 367);
+            this.ClientSize = new System.Drawing.Size(1031, 503);
             this.Controls.Add(this.control);
             this.Controls.Add(this.txtSexo);
             this.Controls.Add(this.txtFechNac);
