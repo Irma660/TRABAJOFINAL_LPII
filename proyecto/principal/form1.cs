@@ -185,22 +185,32 @@ namespace proyecto.principal
         {
             if (edit == false)
             {
-                atributos.Primer_nombre = txtPrimerNombre.Text;
-                atributos.Segundo_nombre = txtSegundoNombre.Text;
-                atributos.Primer_apellido = txtPrimerApellido.Text;
-                atributos.Segundo_apellido = txtSegundoApellido.Text;
-                atributos.Telefono = txtTelefono.Text;
-                atributos.Nivel = txtNivel.Text;
-                atributos.Grado = txtGrado.Text;
-                atributos.Seccion = txtSeccion.Text;
-                atributos.Direccion = txtDireccion.Text;
-                atributos.Sexo = txtSexo.Text;
-                atributos.Fecha_nac = txtFechNac.Text;
-                atributos.Observaciones = txtObservaciones.Text;
-                atributos.Dni = txtDni.Text;
-                personas.INSERTAR(atributos);
-                LimpiarCajasDeTexto();
-                getData();
+                try
+                {
+                    atributos.Primer_nombre = txtPrimerNombre.Text;
+                    atributos.Segundo_nombre = txtSegundoNombre.Text;
+                    atributos.Primer_apellido = txtPrimerApellido.Text;
+                    atributos.Segundo_apellido = txtSegundoApellido.Text;
+                    atributos.Telefono = txtTelefono.Text;
+                    atributos.Nivel = txtNivel.Text;
+                    atributos.Grado = txtGrado.Text;
+                    atributos.Seccion = txtSeccion.Text;
+                    atributos.Direccion = txtDireccion.Text;
+                    atributos.Sexo = txtSexo.Text;
+                    atributos.Fecha_nac = txtFechNac.Text;
+                    atributos.Observaciones = txtObservaciones.Text;
+                    atributos.Dni = txtDni.Text;
+                    personas.INSERTAR(atributos);
+                    LimpiarCajasDeTexto();
+                    getData();
+                    btnGuardar.Enabled = false;
+                    btnNuevo.Enabled = true;
+                    MessageBox.Show("SE GUARDARON LOS DATOS CORRECTAMENTE", "INGRESADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                catch(Exception ex)
+                {
+                    MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
              
     }else if (edit == true)
             {
