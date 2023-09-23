@@ -1,3 +1,4 @@
+create database BDSISTR
 USE BDSISTR
 SELECT * FROM Estudiante
 SELECT * FROM USUARIOS 
