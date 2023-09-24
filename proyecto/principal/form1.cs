@@ -246,6 +246,9 @@ namespace proyecto.principal
             txtDni.Text = string.Empty;
         }
 
-       
+        private void txtSegundoNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
