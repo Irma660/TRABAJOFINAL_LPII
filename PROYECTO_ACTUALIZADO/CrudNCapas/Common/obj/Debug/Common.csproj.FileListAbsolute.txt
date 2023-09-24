@@ -10,3 +10,9 @@ C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\Common\obj\Debug\Common.csproj.Ass
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\Common\obj\Debug\Common.dll
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\Common\obj\Debug\Common.pdb
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\bin\Debug\Common.dll
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\bin\Debug\Common.pdb
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\obj\Debug\Common.dll
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Common\obj\Debug\Common.pdb

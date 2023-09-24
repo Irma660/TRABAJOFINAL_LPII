@@ -16,3 +16,12 @@ C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\DataAccess\obj\Debug\DataAccess.cs
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\DataAccess\obj\Debug\DataAccess.dll
 C:\Users\USER\Desktop\CRUD-C-SHARP\CrudNCapas\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\bin\Debug\Common.dll
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\bin\Debug\Common.pdb
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\obj\Debug\DataAccess.csproj.AssemblyReference.cache
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\DataAccess\obj\Debug\DataAccess.pdb

@@ -332,5 +332,10 @@ namespace Presentation
         {
 
         }
+
+        private void DvgDatos_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

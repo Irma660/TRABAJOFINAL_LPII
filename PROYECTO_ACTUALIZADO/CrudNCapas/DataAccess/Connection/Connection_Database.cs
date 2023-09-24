@@ -10,7 +10,7 @@ namespace DataAccess.Connection
 {
     public class Connection_Database
     {
-        private SqlConnection c = new SqlConnection("Data Source=DESKTOP-4Q0A0TB\\SQLEXPRESS;Initial Catalog=BDSISTR;Integrated Security=True");
+        private SqlConnection c = new SqlConnection("Data Source=localhost;Initial Catalog=BDSISTR;Integrated Security=True");
 
         public SqlConnection OpenConnection()
         {
