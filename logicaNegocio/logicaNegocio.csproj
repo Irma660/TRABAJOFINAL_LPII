@@ -49,9 +49,9 @@
       <Project>{8ff1fdf9-479a-45b4-8454-e6ddf3e77e99}</Project>
       <Name>accesoDatos</Name>
     </ProjectReference>
-    <ProjectReference Include="..\atributos\common.csproj">
-      <Project>{e3df7b06-d27b-421c-9481-6b0c6750bd47}</Project>
-      <Name>common</Name>
+    <ProjectReference Include="..\Común\Común.csproj">
+      <Project>{35905bc0-fcfe-49d3-92d0-8908953daef2}</Project>
+      <Name>Común</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

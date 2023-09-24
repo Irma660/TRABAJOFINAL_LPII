@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
 using accesoDatos.entidades;
-using atributos.atributos;
+using Común.atributos;
 
 namespace logicaNegocio.CRUD
 {
@@ -19,7 +19,7 @@ namespace logicaNegocio.CRUD
             td = persona.Mostrar();
             return td;
         }
-        public void INSERTAR(atributosEstudiantes obj)
+        public void INSERTAR(AtributtesEstudiantes obj)
         {
             persona.INSERTAR(obj);
         }

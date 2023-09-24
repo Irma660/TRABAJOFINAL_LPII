@@ -88,9 +88,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\atributos\common.csproj">
-      <Project>{e3df7b06-d27b-421c-9481-6b0c6750bd47}</Project>
-      <Name>common</Name>
+    <ProjectReference Include="..\Común\Común.csproj">
+      <Project>{35905bc0-fcfe-49d3-92d0-8908953daef2}</Project>
+      <Name>Común</Name>
     </ProjectReference>
     <ProjectReference Include="..\logicaNegocio\logicaNegocio.csproj">
       <Project>{8445b4ad-64e0-4412-8bb4-47475b01701a}</Project>

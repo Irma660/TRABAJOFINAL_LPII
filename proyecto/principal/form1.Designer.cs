@@ -282,6 +282,7 @@
             this.txtDni.SelectedText = "";
             this.txtDni.Size = new System.Drawing.Size(136, 36);
             this.txtDni.TabIndex = 4;
+            
             this.txtDni.Enter += new System.EventHandler(this.txtDni_Enter);
             this.txtDni.Leave += new System.EventHandler(this.txtDni_Leave);
             // 
@@ -689,7 +690,7 @@
             this.txtID.SelectedText = "";
             this.txtID.Size = new System.Drawing.Size(135, 36);
             this.txtID.TabIndex = 4;
-            this.txtID.TextChanged += new System.EventHandler(this.txtID_TextChanged);
+           
             this.txtID.Enter += new System.EventHandler(this.txtID_Enter);
             this.txtID.Leave += new System.EventHandler(this.txtID_Leave);
             // 
