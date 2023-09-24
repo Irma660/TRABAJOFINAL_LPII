@@ -181,6 +181,7 @@
             this.btnMin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnMin.TabIndex = 3;
             this.btnMin.TabStop = false;
+            this.btnMin.Click += new System.EventHandler(this.btnMin_Click_1);
             // 
             // btnMax
             // 
@@ -193,6 +194,7 @@
             this.btnMax.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnMax.TabIndex = 2;
             this.btnMax.TabStop = false;
+            this.btnMax.Click += new System.EventHandler(this.btnMax_Click_1);
             // 
             // btnClose
             // 
@@ -205,6 +207,7 @@
             this.btnClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.btnClose.TabIndex = 1;
             this.btnClose.TabStop = false;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click_1);
             // 
             // login
             // 
@@ -224,7 +227,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "login";
             this.Text = "login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

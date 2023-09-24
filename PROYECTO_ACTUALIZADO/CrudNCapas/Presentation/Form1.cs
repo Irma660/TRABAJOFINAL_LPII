@@ -328,14 +328,6 @@ namespace Presentation
             DvgDatos.DataSource = cPersonas.Buscar(txtBuscar.Text);
         }
 
-        private void DvgDatos_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void DvgDatos_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        
     }
 }

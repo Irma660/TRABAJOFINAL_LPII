@@ -18,19 +18,33 @@ namespace Presentation
         {
             InitializeComponent();
         }
+        private void btnMin_Click_1(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
 
+        private void btnMax_Click_1(object sender, EventArgs e)
+        {
+            if (this.WindowState == FormWindowState.Normal) this.WindowState = FormWindowState.Maximized;
+            else this.WindowState = FormWindowState.Normal;
+        }
+
+        private void btnClose_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
         private void btnINICIO_Click(object sender, EventArgs e)
         {
-            string usuario = textUsuario.Text;
-            string contraseña = textContraseña.Text;
+            string USUARIO = textUsuario.Text;
+            string CONTRASEÑA= textContraseña.Text;
 
             using (SqlConnection conn = new SqlConnection(conexion))
             {
                 conn.Open();
-                string entrada = "SELECT COUNT (*) FROM USUARIOS WHERE usuario = @usuario and contraseña = @contraseña";
+                string entrada = "SELECT COUNT (*) FROM USUARIO WHERE USUARIO = @USUARIO and CONTRSEÑA= @CONTRASEÑA";
                 SqlCommand comando = new SqlCommand(entrada, conn);
-                comando.Parameters.AddWithValue("@usuario", usuario);
-                comando.Parameters.AddWithValue("@contraseña", contraseña);
+                comando.Parameters.AddWithValue("@USUARIO", USUARIO);
+                comando.Parameters.AddWithValue("@CONTRASEÑA", CONTRASEÑA);
 
 
                 int mostrar = (int)comando.ExecuteScalar();
@@ -48,5 +62,7 @@ namespace Presentation
                 }
             }
         }
+
+        
     }
 }
