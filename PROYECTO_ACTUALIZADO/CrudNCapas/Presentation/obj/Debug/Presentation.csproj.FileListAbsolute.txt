@@ -52,3 +52,22 @@ C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUAL
 C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.csproj.CopyComplete
 C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.exe
 C:\Users\Razer Blader\OneDrive\Escritorio\Irma\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.pdb
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Presentation.exe.config
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Presentation.exe
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Presentation.pdb
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Common.dll
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Domain.dll
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Guna.UI2.dll
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\DataAccess.dll
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Common.pdb
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\Domain.pdb
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\bin\Debug\DataAccess.pdb
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.Form1.resources
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.login.resources
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.Properties.Resources.resources
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.csproj.GenerateResource.cache
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.csproj.CopyComplete
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.exe
+C:\Users\USER\Desktop\TRABAJOFINAL-LP\TRABAJOFINAL_LPII\PROYECTO_ACTUALIZADO\CrudNCapas\Presentation\obj\Debug\Presentation.pdb

@@ -13,7 +13,7 @@ namespace Presentation
 {
     public partial class login : Form
     {
-        private string conexion = "Data Source=DESKTOP-7LDGQBD;Initial Catalog=LOGINBD;Integrated Security=True";
+        private string conexion = "Data Source=DESKTOP-4Q0A0TB\\SQLEXPRESS;Initial Catalog=BDSISTR;Integrated Security=True";
         public login()
         {
             InitializeComponent();
@@ -41,7 +41,7 @@ namespace Presentation
             using (SqlConnection conn = new SqlConnection(conexion))
             {
                 conn.Open();
-                string entrada = "SELECT COUNT (*) FROM USUARIO WHERE USUARIO = @USUARIO and CONTRSEÑA= @CONTRASEÑA";
+                string entrada = "SELECT COUNT (*) FROM USUARIO WHERE USUARIO = @USUARIO and CONTRASEÑA= @CONTRASEÑA";
                 SqlCommand comando = new SqlCommand(entrada, conn);
                 comando.Parameters.AddWithValue("@USUARIO", USUARIO);
                 comando.Parameters.AddWithValue("@CONTRASEÑA", CONTRASEÑA);

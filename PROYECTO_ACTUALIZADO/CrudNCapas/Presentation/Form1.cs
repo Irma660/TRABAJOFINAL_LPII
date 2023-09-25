@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Common.Attributes;
+
 using Domain.Crud;
 
 namespace Presentation
@@ -175,9 +176,9 @@ namespace Presentation
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-            if (edit == false)
+            if (!edit)
             {
-                //INSERTAR
+                // INSERTAR
                 try
                 {
                     attributes.Id = int.Parse(txtID.Text).ToString();
@@ -202,14 +203,14 @@ namespace Presentation
                     btnNuevo.Enabled = true;
                     MessageBox.Show("SE GUARDÓ UN REGISTRO DE FORMA EXITOSA", "INSERTADO", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-                catch(Exception ex)
+                catch (Exception ex)
                 {
-                    MessageBox.Show( $"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
-            }else if(edit == true)
+            }
+            else
             {
-                //ACTUALIZAR
+                // ACTUALIZAR
                 try
                 {
                     attributes.Id = int.Parse(txtID.Text).ToString();
@@ -226,6 +227,7 @@ namespace Presentation
                     attributes.Fecha_nac = txtFechNac.Text;
                     attributes.Observaciones = txtObservaciones.Text;
                     attributes.Dni = txtDni.Text;
+
                     personas.Modificar(attributes);
                     ClearTextBoxs();
                     getData();
@@ -239,10 +241,12 @@ namespace Presentation
                 {
                     MessageBox.Show($"SE PRODUJO EL SIGUIENTE ERROR: {ex.ToString()}", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-            }
+            
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
+    }
+
+    private void btnModificar_Click(object sender, EventArgs e)
         {
             if (DvgDatos.SelectedRows.Count > 0)
             {
